@@ -1,4 +1,4 @@
-# HV20.02 HV20.02 Chinese Animals
+# HV20.02 Chinese Animals
 
 Todays hint seems chinese:
 
