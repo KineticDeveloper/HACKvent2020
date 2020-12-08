@@ -13,3 +13,4 @@ https://competition.hacking-lab.com/events/1
 - HV20.05 Image DNA [my solution](05/)
 - HV20.06 Twelve steps of christmas [my solution](06/)
 - HV20.07 Bad morals [my solution](07/)
+- HV20.08 The game [my solution](08/)
