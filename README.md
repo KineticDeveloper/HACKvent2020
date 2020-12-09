@@ -14,3 +14,4 @@ https://competition.hacking-lab.com/events/1
 - HV20.06 Twelve steps of christmas [my solution](06/)
 - HV20.07 Bad morals [my solution](07/)
 - HV20.08 The game [my solution](08/)
+- HV20.09 Santa's Gingerbread Factory [my solution](09/)
