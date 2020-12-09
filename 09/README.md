@@ -242,9 +242,16 @@ Cleanup the server, removing the `/tmp/test*` files:
     {{ ''.__class__.__mro__[2].__subclasses__()[258](["rm /tmp/test*"], shell=True, stdout=-1, stderr=-1).stderr.read()}}
 
 
-With the PIN available, we have to open the debugger console. The easiest way is to to send the input `ä` to the site. This leads to a crash where we can click on the `terminal` symbol on the right side of a line of source code and provide the PIN to startup the console:
+With the PIN available, we have to open the debugger console. 
+
+The easiest way is to open the console by accessing the `/console` address: https://XYZ.idocker.vuln.land/console
+
+Alternatively you can cause an error by sending the input `ä` to the site. This leads to a crash where we can click on the `terminal` symbol on the right side of a line of source code and provide the PIN to startup the console:
+
+![enter-pin.png](enter-pin.png)
 
 ![debugger-console.png](debugger-console.png)
+
 
 Here we can enter "regular Python" to read the `/flag.txt`:
 
