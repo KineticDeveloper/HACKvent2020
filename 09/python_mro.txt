@@ -111,7 +111,7 @@
 <type 'thread._local'>,
 <type 'thread.lock'>,
 <type 'method_descriptor'>,
-<class ' markupsafe._MarkupEscapeHelper '>,
+<class 'markupsafe._MarkupEscapeHelper '>,
 <type '_io._IOBase'>,
 <type '_io.IncrementalNewlineDecoder'>,
 <type '_hashlib.HASH'>,

