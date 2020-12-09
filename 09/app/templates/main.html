@@ -1,0 +1,55 @@
+<html>
+
+<head>
+        <title>Santas Gingerbread Factory</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='app.css') }}">
+</head>
+
+<body>
+        <div id="head">
+                <h1>Santas Absolute Fat Free Gingerbread - Customize Your Personal One</h1>
+        </div>
+        <hr>
+        <form name="render" id="render" method="POST" action="/">
+                <div id="menu">
+                        <span class="yellow">Eyes:</span>
+                        <input id="borg" type="radio" value="=" name="eyes" {% if '=' in eyes %} checked {% endif %}
+                                onclick="this.form.submit();">
+                        <label for="borg">Borg</label> |
+                        <input id="dead" type="radio" value="X" name="eyes" {% if 'X' in eyes %} checked {% endif %}
+                                onclick="this.form.submit();">
+                        <label for="dead">Dead</label> |
+                        <input id="greedy" type="radio" value="$" name="eyes" {% if '$' in eyes %} checked {% endif %}
+                                onclick="this.form.submit();">
+                        <label for="greedy">Greedy</label> |
+                        <input id="paranoia" type="radio" value="@" name="eyes" {% if '@' in eyes %} checked {% endif %}
+                                onclick="this.form.submit();">
+                        <label for="paranoia">Paranoia</label> |
+                        <input id="stoned" type="radio" value="*" name="eyes" {% if '*' in eyes %} checked {% endif %}
+                                onclick="this.form.submit();">
+                        <label for="stoned">Stoned</label> |
+                        <input id="tired" type="radio" value="-" name="eyes" {% if '-' in eyes %} checked {% endif %}
+                                onclick="this.form.submit();">
+                        <label for="tired">Tired</label> |
+                        <input id="wake" type="radio" value="O" name="eyes" {% if 'O' in eyes %} checked {% endif %}
+                                onclick="this.form.submit();">
+                        <label for="wake">Wake</label> |
+                        <input id="vader" type="radio" value="vader" name="eyes" {% if 'vader' in eyes %} checked {% endif %}
+                                onclick="this.form.submit();">
+                        <label for="vader">Vader</label> | &nbsp;
+                </div>
+                <div id="search">
+                        <span class="yellow">Your Name:</span> <input type="text" value="{{ name }}" name="name" size="30" />
+                        <input class="button" type="submit" name="btnSubmit" value="Get Gingerbread" />
+                </div>
+        </form>
+        <hr>
+        <div id="content">
+                {% block content %}
+                {% endblock %}
+        </div>
+        <hr>
+        <div id="footer"> Created by mean old inik</div>
+</body>
+
+</html>
