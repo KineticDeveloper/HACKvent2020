@@ -17,3 +17,4 @@ https://competition.hacking-lab.com/events/1
 - HV20.09 Santa's Gingerbread Factory [my solution](09/)
 - HV20.10 Be patient with the adjacent [my solution](10/)
 - HV20.11 Christ'mas carol [my solution](11/)
+- HV20.12 Wiener waltz [my notes](12/)
