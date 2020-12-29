@@ -1,21 +1,162 @@
-# HACKvent 2019 - The hackers advent
+# HACKvent 2020 - The hackers advent
 
 ![Logo](Logo.png)
 
 https://competition.hacking-lab.com/events/1
 
-- HV20.-1 Twelve steps of christmas [my solution](-1/)
-- HV20.01 Happy HACKvent 2020 [my solution](01/)
-- HV20.02 Chinese Animals [my solution](02/)
-- HV20.03 Packed gifts [my solution](03/)
-- HV20.H1 It's a secret! [my solution](H1/)
-- HV20.04 Br❤️celet [my solution](04/)
-- HV20.05 Image DNA [my solution](05/)
-- HV20.06 Twelve steps of christmas [my solution](06/)
-- HV20.07 Bad morals [my solution](07/)
-- HV20.08 The game [my solution](08/)
-- HV20.09 Santa's Gingerbread Factory [my solution](09/)
-- HV20.10 Be patient with the adjacent [my solution](10/)
-- HV20.11 Christ'mas carol [my solution](11/)
-- HV20.12 Wiener waltz [my notes](12/)
-- HV20.13 Twelve steps of christmas [my notes](13/)
+- HV20.-1 Twelve steps of christmas
+  <img src="_resources/19_fun.png" style="height:1.8em;vertical-align:middle;">
+  <img src="_resources/easy.png" style="height:1.8em;vertical-align:middle;">  
+  [my solution](-1/)
+
+- HV20.01 Happy HACKvent 2020
+  <img src="_resources/05_forensic.png" style="height:1.8em;vertical-align:middle;">
+  <img src="_resources/easy.png" style="height:1.8em;vertical-align:middle;">  
+  [my solution](01/)
+
+- HV20.02 Chinese Animals
+  <img src="_resources/19_fun.png" style="height:1.8em;vertical-align:middle;">
+  <img src="_resources/easy.png" style="height:1.8em;vertical-align:middle;">  
+  [my solution](02/)
+
+- HV20.03 Packed gift
+  <img src="_resources/03_crypto.png" style="height:1.8em;vertical-align:middle;">
+  <img src="_resources/easy.png" style="height:1.8em;vertical-align:middle;">  
+  [my solution](03/)
+
+- HV20.04 Br❤️celet
+  <img src="_resources/19_fun.png" style="height:1.8em;vertical-align:middle;">
+  <img src="_resources/easy.png" style="height:1.8em;vertical-align:middle;">  
+  [my solution](04/)
+
+- HV20.05 Image DNA
+  <img src="_resources/03_crypto.png" style="height:1.8em;vertical-align:middle;">
+  <img src="_resources/05_forensic.png" style="height:1.8em;vertical-align:middle;">
+  <img src="_resources/easy.png" style="height:1.8em;vertical-align:middle;">  
+  [my solution](05/)
+
+- HV20.06 Twelve steps of christmas
+  <img src="_resources/19_fun.png" style="height:1.8em;vertical-align:middle;">
+  <img src="_resources/medium.png" style="height:1.8em;vertical-align:middle;">  
+  [my solution](06/)
+
+- HV20.07 Bad morals
+  <img src="_resources/10_programming.png" style="height:1.8em;vertical-align:middle;">
+  <img src="_resources/04_reverse_engineering.png" style="height:1.8em;vertical-align:middle;">
+  <img src="_resources/medium.png" style="height:1.8em;vertical-align:middle;">  
+  [my solution](07/)
+
+- HV20.08 The game
+  <img src="_resources/19_fun.png" style="height:1.8em;vertical-align:middle;">
+  <img src="_resources/04_reverse_engineering.png" style="height:1.8em;vertical-align:middle;">
+  <img src="_resources/medium.png" style="height:1.8em;vertical-align:middle;">  
+  [my solution](08/)
+
+- HV20.09 Santa's Gingerbread Factory
+  <img src="_resources/06_penetration_testing.png" style="height:1.8em;vertical-align:middle;">
+  <img src="_resources/01_web_security.png" style="height:1.8em;vertical-align:middle;">
+  <img src="_resources/medium.png" style="height:1.8em;vertical-align:middle;">  
+  [my solution](09/)
+
+- HV20.10 Be patient with the adjacent
+  <img src="_resources/10_programming.png" style="height:1.8em;vertical-align:middle;">
+  <img src="_resources/medium.png" style="height:1.8em;vertical-align:middle;">  
+  [my solution](10/)
+
+- HV20.11 Chris'mas carol
+  <img src="_resources/03_crypto.png" style="height:1.8em;vertical-align:middle;">
+  <img src="_resources/05_forensic.png" style="height:1.8em;vertical-align:middle;">
+  <img src="_resources/medium.png" style="height:1.8em;vertical-align:middle;">  
+  [my solution](11/)
+
+- HV20.12 Wiener waltz
+  <img src="_resources/03_crypto.png" style="height:1.8em;vertical-align:middle;">
+  <img src="_resources/medium.png" style="height:1.8em;vertical-align:middle;">  
+  [my notes](12/)
+
+- HV20.13 Twelve steps of christmas
+  <img src="_resources/03_crypto.png" style="height:1.8em;vertical-align:middle;">
+  <img src="_resources/05_forensic.png" style="height:1.8em;vertical-align:middle;">
+  <img src="_resources/hard.png" style="height:1.8em;vertical-align:middle;">  
+  [my notes](13/)
+
+
+- HV20.14 Santa's Special GIFt
+  <img src="_resources/04_reverse_engineering.png" style="height:1.8em;vertical-align:middle;">
+  <img src="_resources/05_forensic.png" style="height:1.8em;vertical-align:middle;">
+  <img src="_resources/hard.png" style="height:1.8em;vertical-align:middle;">  
+
+- HV20.15 Man Commands, Server Lost
+  <img src="_resources/01_web_security.png" style="height:1.8em;vertical-align:middle;">
+  <img src="_resources/06_penetration_testing.png" style="height:1.8em;vertical-align:middle;">
+  <img src="_resources/hard.png" style="height:1.8em;vertical-align:middle;">  
+
+- HV20.16 Naughty Rudolph
+  <img src="_resources/19_fun.png" style="height:1.8em;vertical-align:middle;">
+  <img src="_resources/10_programming.png" style="height:1.8em;vertical-align:middle;">
+  <img src="_resources/hard.png" style="height:1.8em;vertical-align:middle;">  
+
+- HV20.17 Santa's Gift Factory Control
+  <img src="_resources/03_crypto.png" style="height:1.8em;vertical-align:middle;">
+  <img src="_resources/01_web_security.png" style="height:1.8em;vertical-align:middle;">
+  <img src="_resources/hard.png" style="height:1.8em;vertical-align:middle;">  
+
+- HV20.18 Santa's lost home
+  <img src="_resources/11_linux.png" style="height:1.8em;vertical-align:middle;">
+  <img src="_resources/05_forensic.png" style="height:1.8em;vertical-align:middle;">
+  <img src="_resources/03_crypto.png" style="height:1.8em;vertical-align:middle;">
+  <img src="_resources/hard.png" style="height:1.8em;vertical-align:middle;">  
+
+- HV20.19 Docker Linter Service
+  <img src="_resources/02_exploitation.png" style="height:1.8em;vertical-align:middle;">
+  <img src="_resources/01_web_security.png" style="height:1.8em;vertical-align:middle;">
+  <img src="_resources/hard.png" style="height:1.8em;vertical-align:middle;">  
+
+- HV20.20 Twelve steps of Christmas
+  <img src="_resources/10_programming.png" style="height:1.8em;vertical-align:middle;">
+  <img src="_resources/11_linux.png" style="height:1.8em;vertical-align:middle;">
+  <img src="_resources/05_forensic.png" style="height:1.8em;vertical-align:middle;">
+  <img src="_resources/leet.png" style="height:1.8em;vertical-align:middle;">  
+
+- HV20.21 Threatened Cat
+  <img src="_resources/01_web_security.png" style="height:1.8em;vertical-align:middle;">
+  <img src="_resources/02_exploitation.png" style="height:1.8em;vertical-align:middle;">
+  <img src="_resources/hard.png" style="height:1.8em;vertical-align:middle;">  
+
+- HV20.22 Padawanlock
+  <img src="_resources/04_reverse_engineering.png" style="height:1.8em;vertical-align:middle;">
+  <img src="_resources/hard.png" style="height:1.8em;vertical-align:middle;">  
+
+- HV20.23 Those who make backups are cowards!
+  <img src="_resources/15_ios.png" style="height:1.8em;vertical-align:middle;">
+  <img src="_resources/03_crypto.png" style="height:1.8em;vertical-align:middle;">
+  <img src="_resources/hard.png" style="height:1.8em;vertical-align:middle;">  
+
+- HV20.24 Santa's Secure Data Storage
+  <img src="_resources/03_crypto.png" style="height:1.8em;vertical-align:middle;">
+  <img src="_resources/04_reverse_engineering.png" style="height:1.8em;vertical-align:middle;">
+  <img src="_resources/02_exploitation.png" style="height:1.8em;vertical-align:middle;">
+  <img src="_resources/07_network_security.png" style="height:1.8em;vertical-align:middle;">
+  <img src="_resources/hard.png" style="height:1.8em;vertical-align:middle;">  
+
+---
+
+- HV20.H1 It's a secret!
+  <img src="_resources/21_open_source_intelligence.png" style="height:1.8em;vertical-align:middle;">
+  <img src="_resources/easy.png" style="height:1.8em;vertical-align:middle;">  
+  [my solution](H1/)
+
+- HV20.H2 Oh, another secret!
+  <img src="_resources/21_open_source_intelligence.png" style="height:1.8em;vertical-align:middle;">
+  <img src="_resources/hard.png" style="height:1.8em;vertical-align:middle;">  
+
+- HV20.H3 Hidden in Plain Sight
+  <img src="_resources/21_open_source_intelligence.png" style="height:1.8em;vertical-align:middle;">
+  <img src="_resources/medium.png" style="height:1.8em;vertical-align:middle;">  
+
+---
+
+- HV20 Write-up
+  <img src="_resources/19_fun.png" style="height:1.8em;vertical-align:middle;">
+  <img src="_resources/leet.png" style="height:1.8em;vertical-align:middle;">  
+
