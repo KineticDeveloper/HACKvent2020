@@ -5,12 +5,16 @@
 
 ---
 
+## Introduction
+
 One of the elves has unfortunately added a password to the last presents delivery and we cannot open it. The elf has taken a few days off after all the stress of the last weeks and is not available. Can you open the package for us?
 
 We found the following packages:
 
-- Package 1
-- Package 2
+- [Package 1](Package_1.zip)
+- [Package 2](Package_2.zip)
+
+---
 
 ## Analysis
 

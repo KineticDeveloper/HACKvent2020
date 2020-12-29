@@ -11,10 +11,14 @@ Ever wondered how Santa delivers presents, and knows which groups of friends sho
 
 Hmm, I cannot seem to read the file either, maybe the internet knows?
 
-**Hints**
+[Download](file.col.b)
+
+### Hints
 
 - Hope this cliques for you
-- Segfaults can be fixed - maybe read the source
+- `bin2asc` will help you with this, but ...
+- segfaults can be fixed - maybe read the source
+- If you are using Windows for this challenge, make sure to add a `b` to to the `fopen` calls on lines 37 and 58
 - There is more than one thing you can do with this type of file! Try other options...
 - Groups, not group
 

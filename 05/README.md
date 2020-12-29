@@ -6,9 +6,17 @@
 
 ---
 
+## Introduction
+
 Santa has thousands of Christmas balls in stock. They all look the same, but he can still tell them apart. Can you see the difference?
 
-## Failed approaches
+![image1](image1.jpg) ![image1](image2.jpg)
+
+---
+
+## Analysis
+
+### Failed approaches
 
 1. Checking the image meta data with ImageMagick: 
 
@@ -26,19 +34,19 @@ Santa has thousands of Christmas balls in stock. They all look the same, but he 
 
     Nothing found
 
-## Path to the solution
+### Path to the solution
 
 Checking the image files using `strings`:
 
     strings -n 7 -t x image1.jpg
     strings -n 7 -t x image2.jpg
 
-There are some curiously long identically long strings with a reduced alphabet in the images:
+There are some curiously identically long strings with a reduced alphabet in the images:
 
     CTGTCGCGAGCGGATACATTCAAACAATCCTGGGTACAAAGAATAAAACCTGGGCAATAATTCACCCAAACAAGGAAAGTAGCGAAAAAGTTCCAGAGGCCAAA
     ATATATAAACCAGTTAATCAATATCTCTATATGCTTATATGTCTCGTCCGTCTACGCACCTAATATAACGTCCATGCGTCACCCCTAGACTAATTACCTCATTC
 
-What might that mean? Thanks to a hint I received ("the title of the challange says `Image DNA`"), I googled for "how to encode data in dna base"
+What might that mean? Thanks to a hint I received ("the title of the challenge says `Image DNA`"), I googled for "how to encode data in dna base"
 
 I found a nicely illustrating image of the process:
 

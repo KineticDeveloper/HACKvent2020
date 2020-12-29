@@ -17,9 +17,9 @@ My friend Chris from Florida sent me this score. Enjoy! Is this what you call po
 P.S: Also, we're giving another 24h to get full points for the last challenge.
 
 
-**Hints**
+### Hints
 
-- He also sent this [image](skyline.png), but that doesn't look like Miami's skyline to me.
+- He also sent [this image](skyline.png), but that doesn't look like Miami's skyline to me.
 - The secret code is useful for a file - not a website
 
 ---

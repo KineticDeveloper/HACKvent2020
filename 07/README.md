@@ -6,9 +6,20 @@
 
 ---
 
-One of the elves recently took a programming 101 course. Trying to be helpful, he implemented a program for Santa to generate all the flags for him for this year's HACKvent 2020. The problem is, he can't remember how to use the program any more and the link to the documentation just says 404 Not found. I bet he learned that in the Programming 101 class as well.
+## Introduction 
+
+One of the elves recently took a programming 101 course. Trying to be helpful, he implemented a program for Santa to generate all the flags for him for this year's HACKvent 2020. The problem is, he can't remember how to use the program any more and the link to the documentation just says `404 Not found`. I bet he learned that in the Programming 101 class as well.
 
 Can you help him get the flag back?
+
+[BadMorals.exe](BadMorals.exe)
+
+### Hints
+
+- There are nearly infinite inputs that pass almost all the tests in the program
+- For the correct flag, the final test has to be successful as well
+
+---
 
 ## Analysis
 

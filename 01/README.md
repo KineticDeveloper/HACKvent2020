@@ -5,11 +5,25 @@
 
 ---
 
-An invitation card is provided with the code "hidden" behind black rectangles. 
+## Introduction
+
+Welcome to this year's HACKvent.
+
+Attached you can find the "Official" invitation to the HackVent.
 
 ![card.png](card.png)
 
-The black rectangles come from alpha channel manipulations. Setting the alpha channel to opaque may resolve the hidden flag:
+One of my very young Cyber Elves cut some parts of the card with his alpha scissors.
+
+Have a great HACKvent,
+
+– Santa
+
+---
+
+## Analysis
+
+The black rectangles come from alpha channel manipulations. Setting the alpha channel to opaque may bring up the hidden flag.
 
 Image Magick tool:
 

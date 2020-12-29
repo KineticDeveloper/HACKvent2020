@@ -5,17 +5,23 @@
 
 ---
 
+## Introduction
+
 On the third day of christmas my true love sent to me...
 
-three caesar salads,
-two to (the) six arguments,
-one quick response.
+  three caesar salads,
+  two to (the) six basic arguments,
+  one quick response.
 
-There is a strangely encrypted [message resource available](message-1.txt).
+[Message](message-1.txt)
 
-## Solution
+---
 
-- `three caesar` = Cesar encryption (=alphabet rotation / ROT13) with argument 3  
+## Analysis
+
+The message seems strangely encrypted, but the poem might give us hints:
+
+- `three caesar` = Cesar encryption (=alphabet rotation / ROT13) with offset 3  
 [CyberChef](https://gchq.github.io/CyberChef/) comes to help.
 
   The first line can be decrypted to 

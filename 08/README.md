@@ -6,9 +6,19 @@
 
 ---
 
-    Let's play another little game this year. Once again, as every year, I promise it is hardly obfuscated.
+## Introduction
 
-[`game.pl`](game.pl)
+Let's play another little game this year. Once again, as every year, I promise it is hardly obfuscated.
+
+[Download](game.pl)
+
+### Requirements
+
+Perl & `Term::ReadKey` module (from CPAN or `apt install libterm-readkey-perl` for debian / ubuntu based systems)
+
+---
+
+## Analysis
 
 1. Testing the game by executing `perl game.pl`: it is somehow a Tetris game which can be controlled with the arrow keys and `q` to quit. It is rather quick to play.
 

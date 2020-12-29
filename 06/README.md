@@ -5,12 +5,29 @@
 
 ---
 
+## Introduction
+
 On the sixth day of Christmas my true love sent to me...
 
-six valid QRs,
-five potential scrambles,
-four orientation bottom and right,
-and the rest has been said previously.
+    six valid QRs,
+    five potential scrambles,
+    four orientation bottom and right,
+    and the rest has been said previously.
+
+![`QR-Cube.png`](QR-Cube.png)
+
+### Requirements
+
+a printer
+
+### Hints
+
+- selbmarcs
+- The black lines are important - do not remove them
+
+---
+
+## Analysis
 
 The image [`QR-Cube.png`](QR-Cube.png) is provided and suggest we have to solve a Rubiks cube.
 

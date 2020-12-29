@@ -15,11 +15,13 @@ On the ninth day of Christmas my true love sent to me...
     seventies style crypto,
     and the rest has been said previously.
 
-[sheet.xls](sheet.xls)
+[Download](sheet.xls)
 
-Hints:
+### Hints
 
 - Wait, Bread is on the Nice list? Better check that comment again...
+
+---
 
 ## Analysis
 

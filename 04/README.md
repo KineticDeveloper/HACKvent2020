@@ -5,6 +5,24 @@
 
 ---
 
+## Introduction
+
+Santa was given a nice bracelet by one of his elves. Little does he know that the secret admirer has hidden a message in the pattern of the bracelet...
+
+![bracelet](bracelet.jpg)
+
+### Hints
+
+- No internet is required - only the bracelet
+- The message is encoded in binary
+- Violet color is the delimiter
+- Colors have a fixed order
+- Missing colors matter
+
+---
+
+## Analysis
+
 Image of a bracelet beginning with "HV20{...}".
 
 Splitting up the sequence of colors:

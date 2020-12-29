@@ -1,6 +1,11 @@
 # HV20.H1 It's a secret!
 
-In the [challenge of the day](../03/) we decrypted only one file of the `Package_2.zip`.
+<img src="../_resources/21_open_source_intelligence.png" style="height:1.8em;vertical-align:middle;">
+<img src="../_resources/easy.png" style="height:1.8em;vertical-align:middle;">  
+
+---
+
+In the [challenge of the day 3](../03/) we decrypted only one file of the `Package_2.zip`.
 Let's find out if there is more in the other files.
 
 ```bash
