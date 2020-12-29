@@ -1,5 +1,10 @@
 # HV20.02 Chinese Animals
 
+<img src="../_resources/19_fun.png" style="height:1.8em;vertical-align:middle;">
+<img src="../_resources/easy.png" style="height:1.8em;vertical-align:middle;">  
+
+---
+
 Todays hint seems chinese:
 
     恭喜！收旗爲：ＨＶ２０｛獭慬氭敬敧慮琭扵瑴敲晬礭汯癥猭杲慳猭浵搭桯牳ｅ｝

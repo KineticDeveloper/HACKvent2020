@@ -1,5 +1,11 @@
 # HV20.05 Image DNA
 
+<img src="../_resources/03_crypto.png" style="height:1.8em;vertical-align:middle;">
+<img src="../_resources/05_forensic.png" style="height:1.8em;vertical-align:middle;">
+<img src="../_resources/easy.png" style="height:1.8em;vertical-align:middle;">  
+
+---
+
 Santa has thousands of Christmas balls in stock. They all look the same, but he can still tell them apart. Can you see the difference?
 
 ## Failed approaches

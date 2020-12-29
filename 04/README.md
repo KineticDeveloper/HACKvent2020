@@ -1,5 +1,10 @@
 # HV20.04 Br❤️celet
 
+<img src="../_resources/19_fun.png" style="height:1.8em;vertical-align:middle;">
+<img src="../_resources/easy.png" style="height:1.8em;vertical-align:middle;">  
+
+---
+
 Image of a bracelet beginning with "HV20{...}".
 
 Splitting up the sequence of colors:

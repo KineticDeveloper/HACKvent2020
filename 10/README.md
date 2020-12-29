@@ -1,5 +1,10 @@
 # HV20.10 Be patient with the adjacent
 
+<img src="../_resources/10_programming.png" style="height:1.8em;vertical-align:middle;">
+<img src="../_resources/medium.png" style="height:1.8em;vertical-align:middle;">  
+
+---
+
 ## Introduction
 
 Ever wondered how Santa delivers presents, and knows which groups of friends should be provided with the best gifts? It should be as great or as large as possible! Well, here is one way.

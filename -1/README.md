@@ -1,5 +1,10 @@
 # HV20.-1 Twelve steps of christmas
 
+<img src="../_resources/19_fun.png" style="height:1.8em;vertical-align:middle;">
+<img src="../_resources/easy.png" style="height:1.8em;vertical-align:middle;">  
+
+---
+
 On the third day of christmas my true love sent to me...
 
 three caesar salads,

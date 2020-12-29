@@ -1,5 +1,11 @@
 # HV20.09 Santa's Gingerbread Factory
 
+<img src="../_resources/06_penetration_testing.png" style="height:1.8em;vertical-align:middle;">
+<img src="../_resources/01_web_security.png" style="height:1.8em;vertical-align:middle;">
+<img src="../_resources/medium.png" style="height:1.8em;vertical-align:middle;">  
+
+---
+
 ## Description
 
 - Introduction: Here you can customize your absolutely fat-free gingerbread man.

@@ -1,5 +1,10 @@
 # HV20.06 Twelve steps of christmas
 
+<img src="../_resources/19_fun.png" style="height:1.8em;vertical-align:middle;">
+<img src="../_resources/medium.png" style="height:1.8em;vertical-align:middle;">  
+
+---
+
 On the sixth day of Christmas my true love sent to me...
 
 six valid QRs,

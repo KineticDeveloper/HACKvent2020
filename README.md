@@ -19,7 +19,7 @@ https://competition.hacking-lab.com/events/1
   <img src="_resources/easy.png" style="height:1.8em;vertical-align:middle;">  
   [my solution](02/)
 
-- HV20.03 Packed gift
+- HV20.03 Packed gifts
   <img src="_resources/03_crypto.png" style="height:1.8em;vertical-align:middle;">
   <img src="_resources/easy.png" style="height:1.8em;vertical-align:middle;">  
   [my solution](03/)

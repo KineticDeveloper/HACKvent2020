@@ -1,5 +1,11 @@
 # HV20.13 Twelve steps of christmas
 
+<img src="../_resources/03_crypto.png" style="height:1.8em;vertical-align:middle;">
+<img src="../_resources/05_forensic.png" style="height:1.8em;vertical-align:middle;">
+<img src="../_resources/hard.png" style="height:1.8em;vertical-align:middle;">  
+
+---
+
 ## Introduction
 
 On the ninth day of Christmas my true love sent to me...

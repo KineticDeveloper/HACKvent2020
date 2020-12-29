@@ -1,5 +1,10 @@
 # HV20.01 Happy HACKvent 2020
 
+<img src="../_resources/05_forensic.png" style="height:1.8em;vertical-align:middle;">
+<img src="../_resources/easy.png" style="height:1.8em;vertical-align:middle;">  
+
+---
+
 An invitation card is provided with the code "hidden" behind black rectangles. 
 
 ![card.png](card.png)

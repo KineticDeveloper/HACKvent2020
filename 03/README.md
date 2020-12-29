@@ -1,5 +1,10 @@
 # HV20.03 Packed gifts
 
+<img src="../_resources/03_crypto.png" style="height:1.8em;vertical-align:middle;">
+<img src="../_resources/easy.png" style="height:1.8em;vertical-align:middle;">  
+
+---
+
 One of the elves has unfortunately added a password to the last presents delivery and we cannot open it. The elf has taken a few days off after all the stress of the last weeks and is not available. Can you open the package for us?
 
 We found the following packages:

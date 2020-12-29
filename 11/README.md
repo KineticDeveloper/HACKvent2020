@@ -1,5 +1,11 @@
 # HV20.11 Chris'mas carol
 
+<img src="../_resources/03_crypto.png" style="height:1.8em;vertical-align:middle;">
+<img src="../_resources/05_forensic.png" style="height:1.8em;vertical-align:middle;">
+<img src="../_resources/medium.png" style="height:1.8em;vertical-align:middle;">  
+
+---
+
 ## Introduction
 
 Since yesterday's challenge seems to have been a bit on the hard side, we're adding a small musical innuendo to relax.

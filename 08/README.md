@@ -1,5 +1,11 @@
 # HV20.08 The game
 
+<img src="../_resources/19_fun.png" style="height:1.8em;vertical-align:middle;">
+<img src="../_resources/04_reverse_engineering.png" style="height:1.8em;vertical-align:middle;">
+<img src="../_resources/medium.png" style="height:1.8em;vertical-align:middle;">  
+
+---
+
     Let's play another little game this year. Once again, as every year, I promise it is hardly obfuscated.
 
 [`game.pl`](game.pl)
