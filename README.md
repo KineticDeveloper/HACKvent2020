@@ -2,7 +2,11 @@
 
 ![Logo](Logo.png)
 
-https://competition.hacking-lab.com/events/1
+- [Competition Website](https://competition.hacking-lab.com/events/1)
+- [Official ranking](https://ranking.competition.hacking-lab.com)
+- [Detailed stats](https://hackvent-stats.herokuapp.com)
+
+## Write-up
 
 - HV20.-1 Twelve steps of christmas
   <img src="_resources/19_fun.png" style="height:1.8em;vertical-align:middle;">
@@ -85,52 +89,62 @@ https://competition.hacking-lab.com/events/1
   <img src="_resources/04_reverse_engineering.png" style="height:1.8em;vertical-align:middle;">
   <img src="_resources/05_forensic.png" style="height:1.8em;vertical-align:middle;">
   <img src="_resources/hard.png" style="height:1.8em;vertical-align:middle;">  
+  [description](14/)
 
 - HV20.15 Man Commands, Server Lost
   <img src="_resources/01_web_security.png" style="height:1.8em;vertical-align:middle;">
   <img src="_resources/06_penetration_testing.png" style="height:1.8em;vertical-align:middle;">
   <img src="_resources/hard.png" style="height:1.8em;vertical-align:middle;">  
+  [description](15/)
 
 - HV20.16 Naughty Rudolph
   <img src="_resources/19_fun.png" style="height:1.8em;vertical-align:middle;">
   <img src="_resources/10_programming.png" style="height:1.8em;vertical-align:middle;">
   <img src="_resources/hard.png" style="height:1.8em;vertical-align:middle;">  
+  [description](16/)
 
 - HV20.17 Santa's Gift Factory Control
   <img src="_resources/03_crypto.png" style="height:1.8em;vertical-align:middle;">
   <img src="_resources/01_web_security.png" style="height:1.8em;vertical-align:middle;">
   <img src="_resources/hard.png" style="height:1.8em;vertical-align:middle;">  
+  [description](17/)
 
 - HV20.18 Santa's lost home
   <img src="_resources/11_linux.png" style="height:1.8em;vertical-align:middle;">
   <img src="_resources/05_forensic.png" style="height:1.8em;vertical-align:middle;">
   <img src="_resources/03_crypto.png" style="height:1.8em;vertical-align:middle;">
   <img src="_resources/hard.png" style="height:1.8em;vertical-align:middle;">  
+  [description](18/)
 
 - HV20.19 Docker Linter Service
   <img src="_resources/02_exploitation.png" style="height:1.8em;vertical-align:middle;">
   <img src="_resources/01_web_security.png" style="height:1.8em;vertical-align:middle;">
   <img src="_resources/hard.png" style="height:1.8em;vertical-align:middle;">  
+  [description](19/)
 
 - HV20.20 Twelve steps of Christmas
   <img src="_resources/10_programming.png" style="height:1.8em;vertical-align:middle;">
   <img src="_resources/11_linux.png" style="height:1.8em;vertical-align:middle;">
   <img src="_resources/05_forensic.png" style="height:1.8em;vertical-align:middle;">
   <img src="_resources/leet.png" style="height:1.8em;vertical-align:middle;">  
+  [description](20/)
 
 - HV20.21 Threatened Cat
   <img src="_resources/01_web_security.png" style="height:1.8em;vertical-align:middle;">
   <img src="_resources/02_exploitation.png" style="height:1.8em;vertical-align:middle;">
   <img src="_resources/hard.png" style="height:1.8em;vertical-align:middle;">  
+  [description](21/)
 
 - HV20.22 Padawanlock
   <img src="_resources/04_reverse_engineering.png" style="height:1.8em;vertical-align:middle;">
   <img src="_resources/hard.png" style="height:1.8em;vertical-align:middle;">  
+  [description](22/)
 
 - HV20.23 Those who make backups are cowards!
   <img src="_resources/15_ios.png" style="height:1.8em;vertical-align:middle;">
   <img src="_resources/03_crypto.png" style="height:1.8em;vertical-align:middle;">
   <img src="_resources/hard.png" style="height:1.8em;vertical-align:middle;">  
+  [description](23/)
 
 - HV20.24 Santa's Secure Data Storage
   <img src="_resources/03_crypto.png" style="height:1.8em;vertical-align:middle;">
@@ -138,6 +152,7 @@ https://competition.hacking-lab.com/events/1
   <img src="_resources/02_exploitation.png" style="height:1.8em;vertical-align:middle;">
   <img src="_resources/07_network_security.png" style="height:1.8em;vertical-align:middle;">
   <img src="_resources/hard.png" style="height:1.8em;vertical-align:middle;">  
+  [description](24/)
 
 ---
 
@@ -149,14 +164,10 @@ https://competition.hacking-lab.com/events/1
 - HV20.H2 Oh, another secret!
   <img src="_resources/21_open_source_intelligence.png" style="height:1.8em;vertical-align:middle;">
   <img src="_resources/hard.png" style="height:1.8em;vertical-align:middle;">  
+  [description](H2/)
 
 - HV20.H3 Hidden in Plain Sight
   <img src="_resources/21_open_source_intelligence.png" style="height:1.8em;vertical-align:middle;">
   <img src="_resources/medium.png" style="height:1.8em;vertical-align:middle;">  
-
----
-
-- HV20 Write-up
-  <img src="_resources/19_fun.png" style="height:1.8em;vertical-align:middle;">
-  <img src="_resources/leet.png" style="height:1.8em;vertical-align:middle;">  
+  [description](H3/)
 
