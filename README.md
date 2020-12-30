@@ -84,12 +84,11 @@
   <img src="_resources/hard.png" style="height:1.8em;vertical-align:middle;">  
   [my notes](13/)
 
-
 - HV20.14 Santa's Special GIFt
   <img src="_resources/04_reverse_engineering.png" style="height:1.8em;vertical-align:middle;">
   <img src="_resources/05_forensic.png" style="height:1.8em;vertical-align:middle;">
   <img src="_resources/hard.png" style="height:1.8em;vertical-align:middle;">  
-  [description](14/)
+  [my solution](14/)
 
 - HV20.15 Man Commands, Server Lost
   <img src="_resources/01_web_security.png" style="height:1.8em;vertical-align:middle;">
