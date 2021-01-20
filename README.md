@@ -2,6 +2,13 @@
 
 ![Logo](Logo.png)
 
+This "capture the flag" hacking event took place from November 29th to 31st of December 2020. 
+There were 1170 participants registered, trying to solve 29 hacking challenges in increasing difficulty. 
+622 users have submitted at least 1 flag successfully (=minimum 90 points). The perfect scorers (27 users!) had 6100 points. 
+
+I've completed 15 of the 29 challenges, earning me 2210 points and ending on rank 72.
+
+
 - [Competition Website](https://competition.hacking-lab.com/events/1)
 - [Official ranking](https://ranking.competition.hacking-lab.com)
 - [Detailed stats](https://hackvent-stats.herokuapp.com)
